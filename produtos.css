@@ -1,6 +1,7 @@
 header {
     background-color: rgb(238, 219, 219);
     text-align: center;
+    padding: 20px 0;
 }
 
 nav li {
@@ -12,5 +13,10 @@ nav a {
     color: rgb(155, 117, 117);
     font-weight: bold;
     text-decoration: none;
-}
 
+}
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
