@@ -1,14 +1,93 @@
-body {
-    background-color: rgb(255, 255, 255);
-}
-
-h1 {
-    text-align: center;
-}
-p{
-    text-align: center;
-}
-
-main{ 
+header {
     background-color: rgb(238, 219, 219);
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: rgb(155, 117, 117);
+    font-weight: bold;
+    text-decoration: none;
+    
+
+}
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    margin-bottom: 11000px;
+}
+
+
+.logo {
+    width: 250px;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produtos-descriçao {
+    font-size: 18px;
+}
+
+.produtos-preço {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+nav a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.produtos li:hover {
+    border-color: blueviolet;
+}
+
+.produtos li:active {
+    border-color: bisque;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(238, 219, 219);
+    padding: 40px 0;
+}
+
+.copyrigth {
+    color: black;
+    font-size: 13px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.img-footer {
+    
 }
