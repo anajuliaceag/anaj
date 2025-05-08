@@ -16,3 +16,26 @@ main{
 #banner {
     width: 100%;
 }
+
+header {
+    background-color: rgb(238, 219, 219);
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: rgb(155, 117, 117);
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+
+logo {
+    width: 250px;
+}

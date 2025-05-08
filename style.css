@@ -21,7 +21,7 @@ nav a {
     position: relative;
     width: 940px;
     margin: 0 auto;
-    margin-bottom: 11000px;
+    margin-bottom: 110px;
 }
 
 
@@ -40,7 +40,8 @@ nav a {
     text-align: center;
     width: 30%;
     vertical-align: top;
-    margin: 0 1.5%;
+    margin: 0 1%;
+    vertical-align: ;
     padding: 30px 20px;
     box-sizing: border-box;
     border: 2px solid black;
@@ -89,5 +90,25 @@ footer {
 }
 
 .img-footer {
-    
+    width: 150px;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.enivar {
+
 }
